@@ -1,0 +1,97 @@
+nohup: ignoring input and appending output to 'nohup.out'
+[sudo] password for orin: /usr/lib/python3.8/runpy.py:127: RuntimeWarning: 'tf2onnx.convert' found in sys.modules after import of package 'tf2onnx', but prior to execution of 'tf2onnx.convert'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))
+2024-03-27 02:05:31,992 - WARNING - '--tag' not specified for saved_model. Using --tag serve
+2024-03-27 02:05:39,242 - INFO - Signatures found in model: [serving_default].
+2024-03-27 02:05:39,242 - WARNING - '--signature_def' not specified, using first signature: serving_default
+2024-03-27 02:05:39,243 - INFO - Output names: ['dense']
+2024-03-27 02:05:40,598 - INFO - Using tensorflow=2.12.0, onnx=1.15.0, tf2onnx=1.16.1/15c810
+2024-03-27 02:05:40,599 - INFO - Using opset <onnx, 15>
+2024-03-27 02:05:40,798 - INFO - Computed 0 values for constant folding
+2024-03-27 02:05:41,186 - INFO - Optimizing ONNX model
+2024-03-27 02:05:42,898 - INFO - After optimization: BatchNormalization -34 (34->0), Const -120 (194->74), GlobalAveragePool +1 (0->1), Identity -2 (2->0), ReduceMean -1 (1->0), Reshape -11 (11->0), Squeeze +1 (0->1), Transpose -146 (147->1)
+2024-03-27 02:05:43,051 - INFO - 
+2024-03-27 02:05:43,051 - INFO - Successfully converted TensorFlow model generated/cifar100/MobileNetV3Small/saved-1 to ONNX
+2024-03-27 02:05:43,052 - INFO - Model inputs: ['input_1']
+2024-03-27 02:05:43,052 - INFO - Model outputs: ['dense']
+2024-03-27 02:05:43,052 - INFO - ONNX model is saved at generated/onnx/cifar100-MobileNetV3Small-1.onnx
+/usr/lib/python3.8/runpy.py:127: RuntimeWarning: 'tf2onnx.convert' found in sys.modules after import of package 'tf2onnx', but prior to execution of 'tf2onnx.convert'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))
+2024-03-27 02:05:50,965 - WARNING - '--tag' not specified for saved_model. Using --tag serve
+2024-03-27 02:05:57,072 - INFO - Signatures found in model: [serving_default].
+2024-03-27 02:05:57,072 - WARNING - '--signature_def' not specified, using first signature: serving_default
+2024-03-27 02:05:57,074 - INFO - Output names: ['dense']
+2024-03-27 02:05:58,413 - INFO - Using tensorflow=2.12.0, onnx=1.15.0, tf2onnx=1.16.1/15c810
+2024-03-27 02:05:58,413 - INFO - Using opset <onnx, 15>
+2024-03-27 02:05:58,608 - INFO - Computed 0 values for constant folding
+2024-03-27 02:05:58,996 - INFO - Optimizing ONNX model
+2024-03-27 02:06:00,711 - INFO - After optimization: BatchNormalization -34 (34->0), Const -120 (194->74), GlobalAveragePool +1 (0->1), Identity -2 (2->0), ReduceMean -1 (1->0), Reshape -11 (11->0), Squeeze +1 (0->1), Transpose -146 (147->1)
+2024-03-27 02:06:00,726 - INFO - 
+2024-03-27 02:06:00,727 - INFO - Successfully converted TensorFlow model generated/cifar100/MobileNetV3Small/saved-1 to ONNX
+2024-03-27 02:06:00,727 - INFO - Model inputs: ['input_1']
+2024-03-27 02:06:00,727 - INFO - Model outputs: ['dense']
+2024-03-27 02:06:00,727 - INFO - ONNX model is saved at generated/onnx/cifar100-MobileNetV3Small-1.onnx
+/usr/lib/python3.8/runpy.py:127: RuntimeWarning: 'tf2onnx.convert' found in sys.modules after import of package 'tf2onnx', but prior to execution of 'tf2onnx.convert'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))
+2024-03-27 02:06:33,536 - WARNING - '--tag' not specified for saved_model. Using --tag serve
+2024-03-27 02:07:01,824 - INFO - Signatures found in model: [serving_default].
+2024-03-27 02:07:01,824 - WARNING - '--signature_def' not specified, using first signature: serving_default
+2024-03-27 02:07:01,827 - INFO - Output names: ['dense']
+2024-03-27 02:07:10,372 - INFO - Using tensorflow=2.12.0, onnx=1.15.0, tf2onnx=1.16.1/15c810
+2024-03-27 02:07:10,372 - INFO - Using opset <onnx, 15>
+2024-03-27 02:07:11,327 - INFO - Computed 0 values for constant folding
+2024-03-27 02:07:13,362 - INFO - Optimizing ONNX model
+2024-03-27 02:07:25,459 - INFO - After optimization: BatchNormalization -78 (78->0), Cast -52 (52->0), Concat -26 (26->0), Const -640 (925->285), GlobalAveragePool +27 (0->27), Identity -2 (2->0), ReduceMean -27 (27->0), Shape -26 (26->0), Slice -26 (26->0), Squeeze +1 (26->27), Transpose -441 (442->1), Unsqueeze -104 (104->0)
+2024-03-27 02:07:25,857 - INFO - 
+2024-03-27 02:07:25,857 - INFO - Successfully converted TensorFlow model generated/cifar100/EfficientNetB3/saved-1 to ONNX
+2024-03-27 02:07:25,858 - INFO - Model inputs: ['input_1']
+2024-03-27 02:07:25,858 - INFO - Model outputs: ['dense']
+2024-03-27 02:07:25,858 - INFO - ONNX model is saved at generated/onnx/cifar100-EfficientNetB3-1.onnx
+/usr/lib/python3.8/runpy.py:127: RuntimeWarning: 'tf2onnx.convert' found in sys.modules after import of package 'tf2onnx', but prior to execution of 'tf2onnx.convert'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))
+2024-03-27 02:07:37,356 - WARNING - '--tag' not specified for saved_model. Using --tag serve
+2024-03-27 02:08:04,093 - INFO - Signatures found in model: [serving_default].
+2024-03-27 02:08:04,093 - WARNING - '--signature_def' not specified, using first signature: serving_default
+2024-03-27 02:08:04,096 - INFO - Output names: ['dense']
+2024-03-27 02:08:11,992 - INFO - Using tensorflow=2.12.0, onnx=1.15.0, tf2onnx=1.16.1/15c810
+2024-03-27 02:08:11,993 - INFO - Using opset <onnx, 15>
+2024-03-27 02:08:12,951 - INFO - Computed 0 values for constant folding
+2024-03-27 02:08:14,985 - INFO - Optimizing ONNX model
+2024-03-27 02:08:26,954 - INFO - After optimization: BatchNormalization -78 (78->0), Cast -52 (52->0), Concat -26 (26->0), Const -640 (925->285), GlobalAveragePool +27 (0->27), Identity -2 (2->0), ReduceMean -27 (27->0), Shape -26 (26->0), Slice -26 (26->0), Squeeze +1 (26->27), Transpose -441 (442->1), Unsqueeze -104 (104->0)
+2024-03-27 02:08:27,085 - INFO - 
+2024-03-27 02:08:27,085 - INFO - Successfully converted TensorFlow model generated/cifar100/EfficientNetB3/saved-1 to ONNX
+2024-03-27 02:08:27,086 - INFO - Model inputs: ['input_1']
+2024-03-27 02:08:27,086 - INFO - Model outputs: ['dense']
+2024-03-27 02:08:27,086 - INFO - ONNX model is saved at generated/onnx/cifar100-EfficientNetB3-1.onnx
+/usr/lib/python3.8/runpy.py:127: RuntimeWarning: 'tf2onnx.convert' found in sys.modules after import of package 'tf2onnx', but prior to execution of 'tf2onnx.convert'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))
+2024-03-27 02:09:02,885 - WARNING - '--tag' not specified for saved_model. Using --tag serve
+2024-03-27 02:09:42,247 - INFO - Signatures found in model: [serving_default].
+2024-03-27 02:09:42,247 - WARNING - '--signature_def' not specified, using first signature: serving_default
+2024-03-27 02:09:42,253 - INFO - Output names: ['dense']
+2024-03-27 02:09:54,794 - INFO - Using tensorflow=2.12.0, onnx=1.15.0, tf2onnx=1.16.1/15c810
+2024-03-27 02:09:54,794 - INFO - Using opset <onnx, 15>
+2024-03-27 02:09:56,293 - INFO - Computed 0 values for constant folding
+2024-03-27 02:09:59,308 - INFO - Optimizing ONNX model
+2024-03-27 02:10:11,636 - INFO - After optimization: BatchNormalization -99 (201->102), Const -396 (1107->711), GlobalAveragePool +1 (0->1), Identity -2 (2->0), ReduceMean -1 (1->0), Squeeze +1 (0->1), Transpose -809 (810->1)
+2024-03-27 02:10:12,344 - INFO - 
+2024-03-27 02:10:12,344 - INFO - Successfully converted TensorFlow model generated/cifar100/DenseNet201/saved-1 to ONNX
+2024-03-27 02:10:12,344 - INFO - Model inputs: ['input_1']
+2024-03-27 02:10:12,345 - INFO - Model outputs: ['dense']
+2024-03-27 02:10:12,345 - INFO - ONNX model is saved at generated/onnx/cifar100-DenseNet201-1.onnx
+/usr/lib/python3.8/runpy.py:127: RuntimeWarning: 'tf2onnx.convert' found in sys.modules after import of package 'tf2onnx', but prior to execution of 'tf2onnx.convert'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))
+2024-03-27 02:10:20,572 - WARNING - '--tag' not specified for saved_model. Using --tag serve
+2024-03-27 02:11:02,522 - INFO - Signatures found in model: [serving_default].
+2024-03-27 02:11:02,522 - WARNING - '--signature_def' not specified, using first signature: serving_default
+2024-03-27 02:11:02,528 - INFO - Output names: ['dense']
+2024-03-27 02:11:15,217 - INFO - Using tensorflow=2.12.0, onnx=1.15.0, tf2onnx=1.16.1/15c810
+2024-03-27 02:11:15,217 - INFO - Using opset <onnx, 15>
+2024-03-27 02:11:16,748 - INFO - Computed 0 values for constant folding
+2024-03-27 02:11:19,801 - INFO - Optimizing ONNX model
+2024-03-27 02:11:32,237 - INFO - After optimization: BatchNormalization -99 (201->102), Const -396 (1107->711), GlobalAveragePool +1 (0->1), Identity -2 (2->0), ReduceMean -1 (1->0), Squeeze +1 (0->1), Transpose -809 (810->1)
+2024-03-27 02:11:32,786 - INFO - 
+2024-03-27 02:11:32,786 - INFO - Successfully converted TensorFlow model generated/cifar100/DenseNet201/saved-1 to ONNX
+2024-03-27 02:11:32,787 - INFO - Model inputs: ['input_1']
+2024-03-27 02:11:32,787 - INFO - Model outputs: ['dense']
+2024-03-27 02:11:32,787 - INFO - ONNX model is saved at generated/onnx/cifar100-DenseNet201-1.onnx
